@@ -1,7 +1,62 @@
-h1 {
-    color: brown;
+html {
+    /* pour que le fond prenne toute la place */
+    height: 100%;
 }
 
-h2 {
-    color: red;
+body {
+    background-color: darkslategray;
+    /* petite retouche gimp pour la luminosité */
+    background-image: url(img/coffeeBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.grosDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    background-color: aqua;
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.322);
+    height: 40px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+}
+
+/* mettre en commentaire avec ctrl k + u */
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
 }
