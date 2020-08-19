@@ -24,11 +24,13 @@ body {
 
 /* le bouton nuit- jour */
 
-
-
 [data-theme="dark"] {
   background-color: #111 !important;
   color: #eee;
+}
+/*pour que le texte en navigation change de couleur en blanc (raccourcis utiles ctrl maj P et .wrapper span, alt selection)  */
+[data-theme="dark"] .nav-link span {
+  color: rgb(216, 200, 200);
 }
 
 /* change le text de nuit à jour */
@@ -43,7 +45,7 @@ content: '🌞';
 
 
 [data-theme="dark"] .bg-light {
-  background-color: #333 !important;
+  background-color: rgb(32, 32, 32) !important;
 }
 
 [data-theme="dark"] .bg-white {
@@ -52,6 +54,21 @@ content: '🌞';
 
 [data-theme="dark"] .bg-black {
   background-color: #eee !important;
+}
+[data-theme="dark"] .jumbotron {
+  background-color: rgb(61, 61, 61) !important;
+}
+[data-theme="dark"] hr {
+  background-color: rgb(218, 203, 203) !important;
+}
+[data-theme="dark"] .card {
+  background-color: rgb(54, 58, 59) !important;
+}
+[data-theme="dark"] .fa-github {
+  color: rgb(248, 245, 245) ;
+}
+[data-theme="dark"] .fa-github :hover {
+  color: rgb(138, 125, 125) ;
 }
 
 /* le carousel  */
