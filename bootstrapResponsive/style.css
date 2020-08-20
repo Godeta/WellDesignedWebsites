@@ -71,6 +71,33 @@ content: '🌞';
   color: rgb(138, 125, 125) ;
 }
 
+/* choix langue */
+.Specialcontainer {
+  position: relative;
+  max-width: 600px;
+  max-height: 500px;
+  padding: 50px;
+  color: #555;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.langWrap{
+  background: #333;
+}
+.Specialcontainer a{
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 15px;
+  font-weight: bold;
+  background: #555656;
+  font-size: 18px;
+}
+.Specialcontainer a.active{
+  background: #f21313;
+}
+
 /* le carousel  */
 .carousel-item img {
   width: 100%;

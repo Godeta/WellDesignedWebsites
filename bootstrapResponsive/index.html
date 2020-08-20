@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,7 +16,6 @@
 </head>
 
 <body>
-
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<!--expand md cache le texte lorsque l'écran est réduit et affiche l'icone à la place-->
@@ -45,13 +46,23 @@
 						<label  for="darkSwitch" > <span class="test"><h2>🌘</h2></span></label>
 					  </div>
 					  <script src="dark-mode-switch.min.js"></script>
-			
-			
 					</div>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
+	<div class="Specialcontainer">
+		<div class="langWrap">
+			<a href="#" language='english' class="active">English</a>
+			<a href="#" language='french'>French</a>
+			<a href="#" language='spanish'>Spanish</a>
+		</div>
+		</div>
+
+		<h2 class="subText">Langage choisi : Français</h2>
+
+	
 	<!--- Image Slider -->
 	<div id="slides" class="carousel slide" data-ride="carousel">
 		<ul class="carousel-indicators">
@@ -63,8 +74,8 @@
 			<div class="carousel-item active">
 				<img src="img/background.png" alt="Image de fond du carousel">
 				<div class="carousel-caption">
-					<h1 class="display-2">Bootstrap</h1>
-					<h3>Complete website layout</h3>
+					<h1 class="display-2 title1">Bienvenu</h1>
+					<h3 >Complete website layout</h3>
 					<button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
 					<button type="button" class="btn btn-primary btn-lg">Get Started</button>
 				</div>
@@ -314,6 +325,28 @@
 			</div>
 		</div>
 	</footer>
+	<!-- language switch script  -->
+	<script>
+		const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+		const titleEl = document.querySelector('.title1');
+		const descrEl = document.querySelector('.description');
+		const subTextEl = document.querySelector('.subText');
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				titleEl.textContent = data[attr].title1;
+				descrEl.textContent = data[attr].description;
+				subTextEl.textContent = data[attr].subText;
+			});
+		});
+	</script>
+	<script src="languages.js"></script>
 </body>
 
 </html>
