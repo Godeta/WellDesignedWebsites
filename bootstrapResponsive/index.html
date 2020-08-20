@@ -60,7 +60,8 @@
 		</div>
 		</div>
 
-		<h2 class="subText">Langage choisi : Français</h2>
+		<h2 class="description">Langage choisi : Français</h2>
+		<h2 class="subText2">Langage choisi : Français</h2>
 
 	
 	<!--- Image Slider -->
@@ -76,7 +77,7 @@
 				<div class="carousel-caption">
 					<h1 class="display-2 title1">Bienvenu</h1>
 					<h3 >Complete website layout</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+					<button type="button" class="btn btn-outline-light btn-lg voirDemo">VIEW DEMO</button>
 					<button type="button" class="btn btn-primary btn-lg">Get Started</button>
 				</div>
 			</div>
@@ -331,7 +332,9 @@
 		const link = document.querySelectorAll('a');
 		const titleEl = document.querySelector('.title1');
 		const descrEl = document.querySelector('.description');
-		const subTextEl = document.querySelector('.subText');
+		const subTextEl = document.querySelector('.subText2');
+		const viewDemoEl = document.querySelector('.voirDemo');
+		const TestEl = document.querySelector('.Test');
 
 		link.forEach(el => {
 			el.addEventListener('click', () => {
@@ -342,7 +345,9 @@
 
 				titleEl.textContent = data[attr].title1;
 				descrEl.textContent = data[attr].description;
-				subTextEl.textContent = data[attr].subText;
+				subTextEl.textContent = data[attr].subText2;
+				viewDemoEl.textContent = data[attr].voirDemo;
+				TestEl.textContent = data[attr].Test;
 			});
 		});
 	</script>
