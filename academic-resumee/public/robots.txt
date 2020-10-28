@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://Godeta.github.io/sitemap.xml

@@ -3,17 +3,17 @@ var data = {
 			  "english": 
 			  {
 			    "title1": "Welcome",
-			    "description": "Truc.",
+			    "description": "Something.",
 				"subText2": "Chosen language : English.",
 				"voirDemo": 
 					"View Demo",
 					"Test": 
-						"Truc."
+						"Stuff."
 			  },
 			  "french": 
 			  {
 			    "title1": "Bienvenu",
-			    "description": "Artun.",
+			    "description": "Descrip en français.",
 				"subText2": "Langage choisi : français",
 				"voirDemo":
 					 "Voir la demo",
@@ -28,6 +28,6 @@ var data = {
 				"voirDemo": 
 					"Mirar la demo",
 					"Test": 
-						"Truc."
+						"Cosa."
 			  }
 			}
