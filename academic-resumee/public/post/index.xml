@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Arnaud GODET resume</title>
-    <link>https://godeta.github.io/WellDesignedWebsites/academic-resumee/public/index.html/post/</link>
-      <atom:link href="https://godeta.github.io/WellDesignedWebsites/academic-resumee/public/index.html/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://godeta.github.io/post/</link>
+      <atom:link href="https://godeta.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://godeta.github.io/WellDesignedWebsites/academic-resumee/public/index.html/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://godeta.github.io/images/icon_hu2aeeba9780762ed6bd5ae91e87ef4a95_29694_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
-      <link>https://godeta.github.io/WellDesignedWebsites/academic-resumee/public/index.html/post/</link>
+      <link>https://godeta.github.io/post/</link>
     </image>
     
   </channel>
