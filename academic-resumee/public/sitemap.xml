@@ -3,39 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://godeta.github.io/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/post/</loc>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/authors/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/</loc>
+    <lastmod>2018-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/categories/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/author/arnaud-godet/</loc>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/author/nelson-bighetti/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/authors/</loc>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/post/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/categories/</loc>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/publication_types/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/publication_types/</loc>
   </url>
   
   <url>
-    <loc>https://godeta.github.io/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://godeta.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://godeta.github.io/tags/</loc>
+    <loc>https://godeta.github.io/WellDesignedWebsites/tags/</loc>
   </url>
   
 </urlset>
