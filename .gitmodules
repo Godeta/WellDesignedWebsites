@@ -1,0 +1,4 @@
+[submodule "academic-resumee-source/public"]
+	path = academic-resumee-source/public
+	url = https://github.com/godeta/godeta.github.io.git
+	branch = master
