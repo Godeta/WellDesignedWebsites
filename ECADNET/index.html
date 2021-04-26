@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ECADNET le projet</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<!--expand md cache le texte lorsque l'écran est réduit et affiche l'icone à la place-->
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://fr.wikipedia.org/wiki/Anatomie"><img src="img/logo_transparent.png"
+					width="200px" height="100" alt="Logo du site"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#slides"><span>Home</span></a>
+					</li>
+					<li class="nav-item">
+						<span><a class="nav-link" href="#Made"><span>Réalisé avec...</span></a></span>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Service"><span>Le projet</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Team"><span>Les grandes étapes</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Connect"><span>Me contacter</span></a>
+					</li>
+					<div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="darkSwitch">
+						<label  for="darkSwitch" > <span class="test"><h2>🌘</h2></span></label>
+					  </div>
+					  <script src="dark-mode-switch.min.js"></script>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="Specialcontainer">
+		<div class="langWrap">
+			<a href="#" language='english' class="active">English</a>
+			<a href="#" language='french'>French</a>
+			<a href="#" language='spanish'>Spanish</a>
+		</div>
+		</div>
+
+		<h2 class="description">Langage choisi : Français</h2>
+		<h2 class="subText2">Langage choisi : Français</h2>
+
+	
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/background.png" alt="Image de fond du carousel">
+				<div class="carousel-caption">
+					<h1 class="display-2 title1">Bienvenu</h1>
+					<h3 >Complete website layout</h3>
+					<button type="button" class="btn btn-outline-light btn-lg voirDemo">VIEW DEMO</button>
+					<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background2.png" alt="Image de fond du carousel">
+			</div>
+			<div class="carousel-item">
+				<img src="img/background3.png" alt="Image de fond du carousel">
+			</div>
+		</div>
+	</div>
+
+	<!--- Jumbotron -->
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<!--différents nombres de colonnes pour différentes tailles d'écrans-->
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead"><b>Ce site s'intéresse à l'anatomie dans le cadre de la musculation c'est à dire :
+						mieux comprendre son corps pour se rapprocher du corps de nos rêves. Chacun à des objectifs qui
+						lui sont propres
+						, devenir plus massif, plus rapide, moins gras, être capable de soulever lourd ou plutôt de
+						maîtriser son corps
+						comme un gymnaste. J'espère que ce petit guide vous permettra de savoir où vous renseigner pour
+						atteindre vos objectifs.</b>
+				</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a
+					href="https://livre.fnac.com/a2987599/DELAVIER-FREDERIC-GUNDILL-MICHAEL-La-methode-delavier-de-musculation"><button
+						type="button" class="btn btn-outline-secondary btn-lg">Recommendation</button></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Welcome Section -->
+	<div class="container-fluid padding" id="Made">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Built with ease.</h1>
+				<hr>
+				<div class="col-12">
+					<p class="lead">Ce site a été réalisé entièrement avec HTML5, CSS3 et Boostrap 4. Il est responsif
+						donc adapté à tout type d'écrans et hébergé sur github. (le code est open-source)
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Three Column Section -->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-code"> </i>
+				<h3>HTML5</h3>
+				<p>Built with the latest version of HTML, HTML5.</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				<i class="fas fa-bold"> </i>
+				<h3>BOOTSTRAP</h3>
+				<p>Built with the latest version of Boostrap, Bootsrap 4.</p>
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<i class="fab fa-css3"> </i>
+				<h3>CSS</h3>
+				<p>Built with the latest version of CSS, CSS3.</p>
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding" id="Service">
+		<div class="row padding">
+			<div class="col-md-12 col-lg-6">
+				<h2>If you build it...</h2>
+				<p>Sentis courais qui savez-vous planche des yeux les ne, frissons des éblouies torpeurs ailé qu'aux a.
+					Repeché d'horreurs gonflé.</p>
+				<p>Vengo recientes pero que con bajaba la los diana los. Con diana muelles húmedo encuentro arcos de
+					diana poniendo. De arcos de helechos nube a transparente muertos en atrás. Paso aire bajo de los
+					fría. Apariencia con musgos recodos los, escobazos sólo los talco bala me sensitivo apariencia los.
+					Pasan.</p>
+				<p>Coeur parce genre n'est grande soucieux genoux que excitant hélas. Fatale de contemplons sur de est.
+					Aboutit masque jaillir insensé.</p>
+				<br>
+				<a href="#" class="btn btn-primary"> Learn More</a>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/desk.png" class="img-fluid" alt="bureau avec ordinateur">
+			</div>
+		</div>
+	</div>
+	<hr class="my-4">
+
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed"></div>
+		</div>
+	</figure>
+
+	<!--- Emoji Section -->
+	<button class="fun" data-toggle="collapse" data-target="#emoji">clic for fun</button>
+	<div id="emoji" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="img/gif/panda.gif" alt="Un gif de panda">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="img/gif/poo.gif" alt="Un gif de caca">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="img/gif/unicorn.gif" alt="Un gif de licorne">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img class="gif" src="img/gif/chicken.gif" alt="Un gif de poulet">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Meet the team -->
+	<div class="container-fluid padding" id="Team">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Meet the team</h1>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<!--- Cards -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<!--Arnaud GODET 1er membre de la team-->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/team1.png" alt="image du 1er membre de la team">
+					<div class="card-body">
+						<h4 class="card-title"> Electronique</h4>
+						<p class="card-text">Arnaud est un étudiant en IUT informatique très sérieux et rigoureux dans
+							son travail. Il a profité de son temps libre en dehors de son travail à la cimenterie Calcia
+							pour participer à ce projet ! (et à d'autres projets voir son github...)</p>
+						<a href="#" class="btn btn-outline-secondary">See profile</a>
+					</div>
+				</div>
+			</div>
+			<!--GODETA 2ème membre de la team-->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/team2.png" alt="image du 2ème membre de la team">
+					<div class="card-body">
+						<h4 class="card-title"> CAD</h4>
+						<p class="card-text">Godeta est un jeune programmeur enthousiaste qui s'essaye dans différents
+							domaines de la programmation et a décidé de participer au projet pour amméliorer ses
+							compétences en programmation web responsive. </p>
+						<a href="https://github.com/Godeta" class="btn btn-outline-secondary">See profile</a>
+					</div>
+				</div>
+			</div>
+			<!--GODET Arnaud membre de la team-->
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/team3.png" alt="image du 3ème membre de la team">
+					<div class="card-body">
+						<h4 class="card-title"> WEB</h4>
+						<p class="card-text">Monsieur GODET est un sportif qui s'est renseigné sur l'anatomie et la
+							musculation pour pouvoir donner les conseils fournis sur ce site, c'est en quelque sorte
+							l'auteur du contenu intellectuel disponible ici.</p>
+						<a href="https://github.com/Godeta" class="btn btn-outline-secondary">See profile</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Two Column Section -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-12 col-lg-6">
+				<h2>Our philosophy</h2>
+				<p>Sentis courais qui savez-vous planche des yeux les ne, frissons des éblouies torpeurs ailé qu'aux a.
+					Repeché d'horreurs gonflé.</p>
+				<p>Vengo recientes pero que con bajaba la los diana los. Con diana muelles húmedo encuentro arcos de
+					diana poniendo. De arcos de helechos nube a transparente muertos en atrás. Paso aire bajo de los
+					fría. Apariencia con musgos recodos los, escobazos sólo los talco bala me sensitivo apariencia los.
+					Pasan.</p>
+				<br>
+			</div>
+			<div class="col-lg-6">
+				<img src="img/bootstrap2.png" class="img-fluid" alt="bootstrap">
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+
+	<!--- Connect -->
+	<div class="container-fluid padding" id="Connect">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<h2>Connect</h2>
+				<div class="col-12 social">
+					<a href="https://www.linkedin.com/in/arnaud-godet-b633021a6/"><i class="fab fa-linkedin"></i> </a>
+					<a href="https://github.com/Godeta"><i class="fab fa-github"></i> </a>
+					<a href="https://github.com/Godeta"><i class="fab fa-twitter"></i> </a>
+					<a href="https://github.com/Godeta"><i class="fab fa-instagram"></i> </a>
+					<a href="https://github.com/Godeta"><i class="fab fa-youtube"></i> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<!--3 colonnes en bas de la page-->
+				<div class="col-md-4">
+					<img src="img/w3newbie.png" alt="image de w3 newbie">
+					<hr class="light">
+					<p>09 99 99 99</p>
+					<p>Godeta61@gmail.com</p>
+					<p>999 rue du Programmeur</p>
+					<p>Caen, Normandie, 14000</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Nos horaires</h5>
+					<hr class="light">
+					<p>Lundi: 6h00 - 18h00</p>
+					<p>Samedi: 8h00 - 16h00</p>
+					<p>Dimanche: Fermé</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h5>Nos recommandations</h5>
+					<hr class="light">
+					<p> <a href="https://www.youtube.com/channel/UCPJJkwm48LGt7LC6tUZMWZQ">Eric Flag</a> </p>
+					<p><a href="https://www.youtube.com/channel/UC9M87B7Pnw-BFTLtYvcWIYw">Thomas Rainieri</a> </p>
+					<p><a href="https://www.youtube.com/channel/UC4jJLUOBhHi3kT3zSuyn28g">Manga Workout</a> </p>
+				</div>
+				<div class="col-12">
+					<hr class="light-100">
+					<h5>&copy; Arnaud GODET</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- language switch script  -->
+	<script>
+		const langEl = document.querySelector('.langWrap');
+		const link = document.querySelectorAll('a');
+		const titleEl = document.querySelector('.title1');
+		const descrEl = document.querySelector('.description');
+		const subTextEl = document.querySelector('.subText2');
+		const viewDemoEl = document.querySelector('.voirDemo');
+		const TestEl = document.querySelector('.Test');
+
+		link.forEach(el => {
+			el.addEventListener('click', () => {
+				langEl.querySelector('.active').classList.remove('active');
+				el.classList.add('active');
+
+				const attr = el.getAttribute('language');
+
+				titleEl.textContent = data[attr].title1;
+				descrEl.textContent = data[attr].description;
+				subTextEl.textContent = data[attr].subText2;
+				viewDemoEl.textContent = data[attr].voirDemo;
+				TestEl.textContent = data[attr].Test;
+			});
+		});
+	</script>
+	<script src="languages.js"></script>
+</body>
+
+</html>
