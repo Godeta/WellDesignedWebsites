@@ -157,7 +157,7 @@ content: '🌞';
 }
 
 /* icones css, html, bootstrap */
-.fa-code {
+.fa-cube {
   color: #e54d26;
 }
 
@@ -165,13 +165,13 @@ content: '🌞';
   color: #563d7c;
 }
 
-.fa-css3 {
+.fa-video {
   color: #2163af;
 }
 
-.fa-code,
+.fa-cube,
 .fa-bold,
-.fa-css3 {
+.fa-video {
   font-size: 4em;
   margin: 1em;
 }
@@ -406,6 +406,10 @@ figure {
   }
 }
 
+
+.img-fluid:hover {
+  opacity: 0.5;
+}
 
 
 

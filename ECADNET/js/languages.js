@@ -23,7 +23,7 @@ var data = {
 			  "spanish": 
 			  {
 			    "title1": "Hola como estas ?",
-			    "description": "Siiiii me gustaaa (:",
+			    "description": "Lo siento no hablo espanol",
 				"subText2": "Idioma eligen : espanol",
 				"voirDemo": 
 					"Mirar la demo",
