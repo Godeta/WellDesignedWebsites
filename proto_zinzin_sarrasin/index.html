@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zinzin de sarrasin</title>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="logo1.png" width="auto" height="">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Accueil
+                </a>
+
+                <a class="navbar-item" href="boutique.html">
+                    Boutique
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" >
+                        A propos de nous
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="about.html">
+                            Qui sommes nous ?
+                        </a>
+                        <a class="navbar-item" href="contact.html">
+                            Nous contacter
+                        </a>
+                        <a class="navbar-item" href="story.html">
+                            L'histoire de la galette
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item">
+                            Réalisation du site web
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Créer un compte</strong>
+                        </a>
+                        <a class="button is-light">
+                            Se connecter
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Cover -->
+    <section class="hero is-galette is-fullheight-with-navbar">
+        <div class="hero-body is-$white">
+            <div class="container has-text-centered">
+                <p class="title is-white">
+                  De bonnes galettes locales
+                </p>
+                <p class="subtitle is-white">
+                  Retrouvez le goût de votre région.
+                </p>
+              </div>
+        </div>
+    </section>
+    <!-- Main -->
+    <section class="section">
+        <h1 class="title">Nouveautées</h1>
+        <h2 class="subtitle">
+            Quoi de neuf ? Découvrez les dernières actualités croustillantes de chez nous !
+        </h2>
+
+        <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="newspaper.png" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 3,
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          }
+        });
+      </script>
+        
+    </section>
+    <div class="columns">
+        <div class="column is-one-fifth">
+
+        </div>
+        
+        <div class="column ">
+            
+        <p>
+            N'hésitez pas à donner votre mail pour être mis au parfum dès la sortie de nouvelles actualitées !
+        </p>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-one-fifth">
+
+        </div>
+    <div class="column">
+        <form class="box">
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="victorToutNu@example.com">
+              </div>
+            </div>
+            <button class="button is-primary">Envoyer</button>
+          </form>
+    </div>
+    <div class="column is-one-fifth">
+
+    </div>
+</div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            © Ce site est la propriété de la <b>FCB</b> compagnie.
+          </p>
+        </div>
+      </footer>
+      
+</body>
+
+</html>
