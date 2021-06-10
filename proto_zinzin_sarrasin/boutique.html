@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zinzin de sarrasin</title>
-    <link rel="stylesheet" href="bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="fullpage.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
 <!-- Menu -->
-<nav class="navbar" style="background-color: #1bd4cb00;" role="navigation" aria-label="main navigation">
+<nav class="navbar" style="background-color: #fd8b8b00;" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
             <img src="logo1.png" width="auto" height="">
@@ -78,7 +78,7 @@
     <!-- Main -->
     
     <div id="fullpage">
-        <div class="section " id="section0">
+        <div class="section has-text-centered" id="section0">
             <div class="slide" id="slide0">
             <div class="intro">
                 <h1 class="title">Les galettes en famille !</h1>
@@ -87,33 +87,59 @@
             </div>
         </div>
         <div class="slide" id="slide11">
-            
+            <div class="intro">
+                <h1 class="title">Toujours plus de saveurs avec la spéciale gros tas !</h1>
+                <p>Ingrédients : mes couilles sur un radeau</p>
+                <img src="galette2.jpg" width="50%" height="auto" style="background-position: center;">
+            </div>
         </div>
         </div>
 
-        <div class="section" id="section1">
-            <div class="slide" id="slide1">
-                <div class="intro">
-                    <h1>Clickable</h1>
-                    <p>
-                        You can even click on the navigation and jump directly to another section.
-                    </p>
-                </div>
-            </div>
-    
+        <div class="section has-text-centered" id="section1">
             <div class="slide" id="slide2">
-                <h1>Slide 2</h1>
-            </div>
-    
-        </div>
-        <div class="section" id="section2">
             <div class="intro">
-                <h1>Enjoy it</h1>
+                <h1 class="title">Pour les gourmands !</h1>
+                <p>Changez de slide pour voir nos supers galettes à consommer bien accompagné :)</p>
+                <img src="galette2.jpg" width="50%" height="auto">
             </div>
         </div>
+        <div class="slide" id="slide3">
+            <div class="intro">
+                <h1 class="title">La giga-galette !</h1>
+                <p>Ingrédients : mes couilles sur un radeau</p>
+                <img src="galette.jpg" width="50%" height="auto" style="background-position: center;">
+            </div>
+        </div>
+        </div>
+
+        <div class="section has-text-centered" id="section2">
+            <div class="slide" id="slide4">
+            <div class="intro">
+                <h1 class="title">Les végétariennes !</h1>
+                <p>Changez de slide pour voir nos supers galettes à consommer bien accompagné :)</p>
+                <img src="galette.jpg" width="50%" height="auto">
+            </div>
+        </div>
+        <div class="slide" id="slide5">
+            <div class="intro">
+                <h1 class="title"> Essayez donc la buissonière !</h1>
+                <p>Ingrédients : mon gazon fraichement coupé</p>
+                <img src="galette2.jpg" width="50%" height="auto" style="background-position: center;">
+            </div>
+        </div>
+        </div>
+
+        <!-- <div class="section">
+            <video id="myVideo" loop muted data-autoplay>
+                <source src="cooking.mp4" type="video/mp4">
+            </video>
+            <div class="layer">
+                <h1 class="title">La fabrication de nos galettes</h1>
+            </div>
+        </div> -->
     </div>
 
-    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
 
 <script type="text/javascript">
     var myFullpage = new fullpage('#fullpage', {
