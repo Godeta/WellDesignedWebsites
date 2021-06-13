@@ -1,0 +1,1 @@
+var Fly=pc.createScript("fly");Fly.prototype.initialize=function(){},Fly.prototype.update=function(t){this.app.keyboard.isPressed(pc.KEY_SPACE)&&this.entity.rigidbody.applyForce(0,20,0)};
